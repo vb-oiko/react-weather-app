@@ -1,0 +1,91 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.leftColumn {
+  flex-basis: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.leftColumnShort {
+  flex-basis: 75%;
+}
+
+.cityName {
+  font-size: 3rem;
+  align-self: center;
+}
+
+.starredIcon {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  align-self: center;
+  cursor: pointer;
+}
+
+.starred {
+  background-image: url("../../assets/starred.svg");
+}
+
+.notStarred {
+  background-image: url("../../assets/starred.svg");
+}
+
+.conditions {
+  font-size: 1.5rem;
+  flex-basis: 100%;
+  align-self: center;
+}
+
+.conditionsShort {
+  flex-basis: initial;
+  margin-left: auto;
+}
+
+.humidity {
+  font-size: 0.6rem;
+  flex-basis: 100%;
+}
+
+.humidityShort {
+  display: none;
+}
+
+.mainIcon {
+  flex-basis: 16%;
+}
+
+.mainIconShort {
+  flex-basis: 10%;
+}
+
+.rightColumn {
+  flex-basis: 30%;
+  text-align: end;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.date {
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+.dateShort {
+  display: none;
+}
+
+.temperature {
+  font-size: 4rem;
+}
+
+.temperatureShort {
+  font-size: 3rem;
+}

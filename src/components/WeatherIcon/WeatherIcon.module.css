@@ -1,0 +1,62 @@
+.weatherIcon {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+}
+
+.rain {
+  background-image: url("../../assets/11.png");
+}
+
+/* .shower.rain, .drizzle */
+.showerRain {
+  background-image: url("../../assets/34.png");
+}
+
+/* .heavy.rain, .extreme.rain, .ragged.rain { */
+.heavyRain {
+  background-image: url("../../assets/39.png");
+}
+
+.thunderstorm {
+  background-image: url("../../assets/25.png");
+}
+
+/* .thunderstorm.rain, .thunderstorm.drizzle { */
+.thunderstormRain {
+  background-image: url("../../assets/16.png");
+}
+
+/* .snow, .freezing.rain, .sleet { */
+.snow {
+  background-image: url("../../assets/36.png");
+}
+
+/* .mist, .smoke, .haze, .sand, .dust.whirls, .fog, .dust, .volcanic.ash, .haze { */
+.mist {
+  background-image: url("../../assets/30.png");
+}
+
+.squall {
+  background-image: url("../../assets/31.png");
+}
+
+.tornado {
+  background-image: url("../../assets/21.png");
+}
+
+/* .clear.sky { */
+.clearSky {
+  background-image: url("../../assets/33.png");
+}
+
+.clouds {
+  background-image: url("../../assets/32.png");
+}
+
+/* .clouds.overcast { */
+.cloudsOvercast {
+  background-image: url("../../assets/37.png");
+}
