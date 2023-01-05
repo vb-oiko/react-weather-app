@@ -12,7 +12,7 @@
   flex-wrap: wrap;
 }
 
-.leftColumnShort {
+.leftColumnCompact {
   flex-basis: 75%;
 }
 
@@ -43,7 +43,7 @@
   align-self: center;
 }
 
-.conditionsShort {
+.conditionsCompact {
   flex-basis: initial;
   margin-left: auto;
 }
@@ -53,7 +53,7 @@
   flex-basis: 100%;
 }
 
-.humidityShort {
+.humidityCompact {
   display: none;
 }
 
@@ -61,7 +61,7 @@
   flex-basis: 16%;
 }
 
-.mainIconShort {
+.mainIconCompact {
   flex-basis: 10%;
 }
 
@@ -78,7 +78,7 @@
   padding-bottom: 0.5rem;
 }
 
-.dateShort {
+.dateCompact {
   display: none;
 }
 
@@ -86,6 +86,6 @@
   font-size: 4rem;
 }
 
-.temperatureShort {
+.temperatureCompact {
   font-size: 3rem;
 }
