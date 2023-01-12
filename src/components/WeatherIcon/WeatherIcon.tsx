@@ -1,5 +1,7 @@
 import styles from "./WeatherIcon.module.css";
 
-export const WeatherIcon = () => (
+ const WeatherIcon = () => (
   <div className={`${styles.weatherIcon} ${styles.snow}`}></div>
 );
+
+export default WeatherIcon

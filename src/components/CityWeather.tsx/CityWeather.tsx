@@ -1,20 +1,27 @@
-import { WeatherIcon } from "../WeatherIcon/WeatherIcon";
+import WeatherIcon from "../WeatherIcon/WeatherIcon";
 
 import styles from "./CityWeather.module.css";
 
-export const CityWeather = () => {
+type CityWeatherProps = {
+  city?: string;
+  date?: string;
+};
+
+const CityWeather: React.FC<CityWeatherProps> = ({
+  city = "Tallinn, EE",
+  date = "2023-01-01",
+}) => {
   const curWeather = {
-    cityAndCountry: "Tallinn, EE",
+    cityAndCountry: city,
     condDescr: "snow",
     humidity: 80,
     pressure: 1000,
     windSpeed: 5,
-    date: "2023-01-03",
+    date,
     temp: -1,
   };
 
   const starred = true;
-  console.warn(styles);
 
   return (
     <div className={styles.card}>
@@ -37,3 +44,5 @@ export const CityWeather = () => {
     </div>
   );
 };
+
+export default CityWeather;

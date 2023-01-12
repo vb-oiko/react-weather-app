@@ -1,8 +1,14 @@
-import { WeatherIcon } from "../WeatherIcon/WeatherIcon";
+import { Link } from "react-router-dom";
+import WeatherIcon from "../WeatherIcon/WeatherIcon";
 
 import styles from "./DayForecast.module.css";
 
-export const DayForecast = () => {
+interface DayForecastProps {
+  date: string;
+  city: string;
+}
+
+const DayForecast: React.FC<DayForecastProps> = ({ date, city }) => {
   const weather = {
     date: "",
     condDescr: "",
@@ -16,6 +22,9 @@ export const DayForecast = () => {
         <WeatherIcon></WeatherIcon>
       </div>
       <div className={styles.temperature}>{weather.temp}&deg;C</div>
+      <Link to={`/city/${city}/${date}`}>{date}</Link>
     </div>
   );
 };
+
+export default DayForecast;
